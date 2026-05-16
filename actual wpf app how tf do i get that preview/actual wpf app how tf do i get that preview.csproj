@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <RootNamespace>actual_wpf_app_how_tf_do_i_get_that_preview</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="about.jpeg" />
+    <None Remove="inject.jpeg" />
+    <None Remove="menu.jpeg" />
+    <None Remove="OIP.jpeg" />
+    <None Remove="refresh.jpeg" />
+    <None Remove="settings.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="about.jpeg" />
+    <Resource Include="inject.jpeg" />
+    <Resource Include="refresh.jpeg" />
+  </ItemGroup>
+
+</Project>
